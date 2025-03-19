@@ -75,6 +75,20 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 40px;
+}
+
+ul li {
+  padding: 10px;
+  border: solid 1px;
+  border-color: rgb(218, 207, 194);
+  border-radius: 5px;
+  margin-top: 20px;
+
 }
 
 
